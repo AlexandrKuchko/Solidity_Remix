@@ -20,5 +20,7 @@ contract SampleContract {
         address _thisContract = address(this);
 
         _to.transfer(_thisContract.balance);
+
+        // тестирование гитхаб
     }
 } 
