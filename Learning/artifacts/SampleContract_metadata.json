@@ -70,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Sample.sol": "SampleContract"
+			"Learning/Sample.sol": "SampleContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -84,7 +84,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Sample.sol": {
+		"Learning/Sample.sol": {
 			"keccak256": "0x58193ba76e985ea5514c8dcbdf8943d50c4727e0b4d253052e8a11870f0d69ae",
 			"license": "MIT",
 			"urls": [
