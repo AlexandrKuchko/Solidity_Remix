@@ -6,23 +6,105 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "inc",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newValueStr",
+						"type": "string"
+					}
+				],
+				"name": "demo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myVal",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "targetAddr",
+						"type": "address"
+					}
+				],
+				"name": "getBalace",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "payments",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "targetAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +121,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning/Demo.sol": "Demo"
+			"Learning/Lesson3.sol": "Demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +135,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning/Demo.sol": {
-			"keccak256": "0x2573b236c03d701cf1191541b522445622b994552146caf6848ac99eaa7e2147",
+		"Learning/Lesson3.sol": {
+			"keccak256": "0x3ffb4f709ddd1e63e02dee6e87903cb63c3c2021f6eabd3c2c6c1dad1678bd7a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://788fcd502c3a7997f986bc4d99734d4c3f73a3428669ba9470d38f48c152e8a5",
-				"dweb:/ipfs/QmQcCw5jPSSpBDbCpKiWgPdrC1AoD6XMAdatmBjuaNmbqg"
+				"bzz-raw://785c615dcd01dda0f811bcbf15a617e02e22e3b40545e06440272d5e342aa630",
+				"dweb:/ipfs/QmUrbP1J2iK1NmhdPkqiNCNt2bMgVmrJxLRLVpShfKuQ7c"
 			]
 		}
 	},
